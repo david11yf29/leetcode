@@ -14,7 +14,13 @@ public class binarysearch {
 		int i = 0, j = arr.length - 1;
 		while (i <= j) {
 			int m = (i + j) / 2;
-			arr[m]
+			if (target < arr[m]) {
+				j = m - 1;
+			} else if (arr[m] < target){
+				i = m + 1;
+			} else {
+				return m;
+			}
 		}
 		return -1;
 	}
