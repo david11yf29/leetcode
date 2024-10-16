@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce07da64-a74b-4ac0-aaa8-8942589d8dd7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algorithm/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algorithm/DynamicArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.example.algorithm" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.algorithm" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.binarysearchTest.test1">
     <configuration name="binarysearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -160,7 +164,7 @@
       <workItem from="1728457227657" duration="5000" />
       <workItem from="1728457262086" duration="6124000" />
       <workItem from="1728465577868" duration="623000" />
-      <workItem from="1728466427657" duration="24970000" />
+      <workItem from="1728466427657" duration="26763000" />
     </task>
     <servers />
   </component>
