@@ -7,6 +7,7 @@
     <list default="true" id="ce07da64-a74b-4ac0-aaa8-8942589d8dd7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/algorithm/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/algorithm/DynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/algorithm/DynamicArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/algorithm/DynamicArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Factorial.executor": "Debug",
+    "JUnit.DynamicArrayTest.executor": "Debug",
+    "JUnit.DynamicArrayTest.test1.executor": "Debug",
+    "JUnit.DynamicArrayTest.test2.executor": "Debug",
     "JUnit.binarysearchTest.executor": "Run",
     "JUnit.binarysearchTest.test1.executor": "Run",
     "JUnit.binarysearchTest.test2.executor": "Run",
@@ -89,8 +94,21 @@
       <recent name="com.example.algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.binarysearchTest.test1">
-    <configuration name="binarysearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Factorial">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.algorithm.Factorial" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +117,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.example.algorithm.binarysearchTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.algorithm.DynamicArrayTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicArrayTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.example.algorithm.DynamicArrayTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicArrayTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.example.algorithm.DynamicArrayTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,27 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="binarysearchTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.example.algorithm.binarysearchTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="JUnit.DynamicArrayTest.test2" />
+        <item itemvalue="JUnit.DynamicArrayTest" />
+        <item itemvalue="JUnit.DynamicArrayTest.test1" />
         <item itemvalue="JUnit.binarysearchTest.test1" />
-        <item itemvalue="JUnit.binarysearchTest" />
-        <item itemvalue="JUnit.binarysearchTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +200,7 @@
       <workItem from="1728457227657" duration="5000" />
       <workItem from="1728457262086" duration="6124000" />
       <workItem from="1728465577868" duration="623000" />
-      <workItem from="1728466427657" duration="26763000" />
+      <workItem from="1728466427657" duration="51318000" />
     </task>
     <servers />
   </component>
